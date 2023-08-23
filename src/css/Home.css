@@ -1,0 +1,60 @@
+.homepage {
+    margin-top: 5%;
+    margin-bottom: 1em;
+    /*@TODO: must be aligned vertically by 50%*/
+}
+
+.articlesearch {
+    margin-top: 1.5em;
+}
+
+/* adaptive */
+@media only screen and (max-width: 800px) {
+    .card_container {
+        width: auto !important;
+        gap: 10px !important;
+    }
+
+    .articles-count {
+        display: none;
+    }
+
+    .articlesearch_input {
+        width: 150px !important;
+        height: 24px !important;
+        font-size: 12px !important;
+    }
+
+    .articlesearch_searchbtn-text {
+        font-size: 14px !important;
+        vertical-align: 15% !important;
+    }
+
+    .articlesearch_searchbtn {
+        height: 33.5px !important;
+        padding: 0;
+    }
+
+    .articlesearch_searchbtn-icon {
+        width: 20px !important;
+        vertical-align: top !important;
+    }
+
+    .card_default-header,
+    .card_blue-header,
+    .card_green-header {
+        font-size: 15px !important;
+    }
+
+    .articlesearch_input::placeholder {
+        font-weight: 400 !important;
+    }
+
+    .header_desc {
+        font-size: 12px !important;
+    }
+
+    .card {
+        width: 280px !important;
+    }
+}

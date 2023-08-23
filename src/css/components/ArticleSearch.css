@@ -1,0 +1,52 @@
+.articlesearch_input {
+    background-color: #EDEDED;
+    border: 1px solid #DBDBDB;
+    border-radius: 9px 0 0 9px;
+    height: 45px;
+    width: 500px;
+    padding: 16px;
+    font-size: 16px;
+    outline: none;
+}
+
+.articlesearch_input:focus {
+    font-weight: 400;
+    color: #222;
+    border: 1.4px solid #D5CCCC;
+}
+
+.articlesearch_input::placeholder {
+    color: #888;
+    font-weight: 700;
+}
+
+.articlesearch_searchbtn {
+    background-color: #E3E5E8;
+    border-right: 1px solid #DBDBDB;   
+    border-top: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+    border-radius: 0 9px 9px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2E3338;
+    width: 120px;
+    height: 45px;
+    padding: 6px;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.articlesearch_searchbtn:focus {
+    border: 1.4px solid #D5CCCC;
+}
+
+.articlesearch_searchbtn-icon {
+    width: 24px;
+    vertical-align: middle;
+}
+
+.articlesearch_searchbtn-text {
+    vertical-align: top;
+    margin-left: 3px;
+}

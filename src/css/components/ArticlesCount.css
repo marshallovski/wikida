@@ -1,0 +1,10 @@
+.articles-count {
+    position: absolute;
+    top: 5px;
+    left: 14px;
+    font-size: 12px;
+}
+
+.articles-count_num {
+    font-weight: 600;
+}

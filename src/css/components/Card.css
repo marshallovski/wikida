@@ -1,0 +1,95 @@
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 60px;
+    width: 640px;
+    margin-top: 1em;
+}
+
+.card {
+    display: grid;
+    border-radius: 8px;
+    width: 320px;
+    height: fit-content;
+    grid-template-rows: fit-content 230px 1fr;
+}
+
+.card_default {
+    background-color: #f8f8f8;
+    border: 1.3px solid #DBDBDB;
+}
+
+.card_default-header {
+    background-color: #eff0f2;
+    border-radius: 8px 8px 0px 0px;
+    text-align: left;
+    padding: 5px 0 5px 15px;
+    font-weight: 600;
+}
+
+.card_green {
+    background: rgba(206, 229, 208, 0.5);
+    border: 1px solid #94B49F;
+}
+
+.card_green-header {
+    background: rgba(177, 215, 180, 0.5);
+    border-radius: 8px 8px 0px 0px;
+    text-align: left;
+    padding: 5px 0 5px 15px;
+    font-weight: 600;
+}
+
+.card_blue {
+    background: rgba(211, 206, 223, 0.5);
+    border: 1px solid #54BAB9;
+}
+
+.card_blue-header {
+    background: rgba(178, 200, 223, 0.5);
+    border-radius: 8px 8px 0px 0px;
+    text-align: left;
+    padding: 5px 0 5px 15px;
+    font-weight: 600;
+}
+
+.card_default-header,
+.card_blue-header,
+.card_green-header {
+    font-size: 18px;
+    color: #000;
+}
+
+.card_subtitle {
+    color: #222;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.card_content {
+    padding: 0 15px 0 15px;
+    margin-bottom: .5em;
+    max-width: 350px;
+    text-align: left;
+}
+
+.card_text {
+    font-size: 11px;
+    margin-left: 1em;
+    max-width: 285px;
+}
+
+.card_text li {
+    margin-top: .5em;
+}
+
+.card_sideimg {
+    width: 90px;
+    height: 90px;
+    float: right;
+    margin-left: 5em;
+    border-radius: 3px;
+}

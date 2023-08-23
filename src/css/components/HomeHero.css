@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+
+.header_title {
+    font-weight: 500;
+    color: #000;
+}
+
+.header_desc {
+    color: #555;
+    font-size: 14px;
+}
