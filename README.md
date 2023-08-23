@@ -1,4 +1,4 @@
 # Wikida
 Lightweight Wikipedia client written in React.js
 
-[Demo](https://tixert-cdn.rf.gd)
+Clone this repository, download Node.js, then install packages: `npm install`, and finally run `npm run start` to start Wikida. 
